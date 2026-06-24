@@ -1,0 +1,12 @@
+MTGのときまでros2の存在を知らなかったので、まずはros2単体がどんなものかを調べたりコードを動かして理解していく。
+ros2をpythonで使うために、
+pip install opencv-python numpy（venv）
+sudo apt update
+sudo apt install ros-humble-sensor-msgs ros-humble-std-msgs
+で必要なものを入れた
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+とか
+echo "source /opt/ros/humble/setup.bash" >> ./venv/bin/activate
+とかもした。
+
+(vscodeは、「rclpyって何だよ！」といっているが、rclpyは使える。)
