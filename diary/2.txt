@@ -1,0 +1,13 @@
+1. pulse
+片側が送信側、もう片方が受信側とし、１秒間に１回情報を送信するプログラム（ROS2を使用）
+
+2.xbox_controller
+pulseを改造し、xbox_controllerの信号を送信できるようにした。
+
+3.images
+pulseを改造し、webカメラの映像をリアルタイムで送信できるようにした。
+
+4.image_and_command
+imagesを改造し、画像を受信側がキー入力を送信できるようにした。
+robotが画像を送信し、operationがそれを受け取る。逆に、operationがテキスト(命令)を送信し、robotがそれを受けとる。
+ろぼっとのテレオペに必要な最低限の構成のようなもの。
